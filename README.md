@@ -6,9 +6,9 @@ The tool identifies a list of Maryland weather stations that provide Global Hist
 ##### Growing Degree Day (GDD) calculation:
 Applies the formula describe in [Prabhakara et al. 2015](https://www.sciencedirect.com/science/article/pii/S0303243415000525) (section 2.4 *Growing degree days*):
 
->$$GDD= \frac{[T_{max} + T_{min}]}{2}-T_{base}$$
+><img src="https://latex.codecogs.com/svg.latex?\Large&space;GDD=\frac{[T_{max} + T_{min}]}{2}-T_{base}" title="\Large GDD=\frac{[T_{max} + T_{min}]}{2}-T_{base}" />
 
-where T~base~ equals 4 degrees Celcius.
+where *T<sub>base</sub>* equals 4 degrees Celcius.
 
 
 
@@ -30,5 +30,4 @@ where T~base~ equals 4 degrees Celcius.
 * dplyr
 
 ### Contact:
-Author: Perry Oddo
-[email](mailto:perry.oddo@nasas.gov)
+Author: [Perry Oddo](mailto:perry.oddo@nasas.gov)
